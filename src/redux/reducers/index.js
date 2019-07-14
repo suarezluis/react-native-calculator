@@ -1,8 +1,10 @@
 import { combineReducers } from "redux";
-import CalculatorReducer from "./CalculatorReducer";
+import InputReducer from "./InputReducer";
+import OutputReducer from "./OutputReducer";
 
 const reducers = combineReducers({
-  CalculatorReducer
+  input: InputReducer,
+  output: OutputReducer
 });
 
 export default reducers;
